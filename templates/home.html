@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Hepa Id</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css">
+
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hepa Id</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/form_predict">Prediksi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron" style="background-color: #dadbdb;">
+    <div class="container">
+      <h1 class="display-4">Selamat Datang!</h1>
+      <p class="lead">Ayo Cek Kesehatan Livermu disini!</p>
+      <hr class="my-4">
+      <p>Hepa Id adalah sebuah aplikasi untuk memprediksi penyakit hepatitis berdasarkan gejala - gejala yang dialami.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/form_predict" role="button">Mulai Prediksi</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container">
+      <div class="row">        
+        <div class="col-md-8">
+        
+          <h3>Apa itu Hepatitis</h3>
+
+          <p>Hepatitis adalah penyakit yang memiliki gejala berupa peradangan pada organ hati. Kondisi ini bisa terjadi karena infeksi virus, kebiasaan minum alkohol, paparan zat beracun atau obat-obatan tertentu. </p>
+          
+          <p>Jenisnya terbagi dua berdasarkan sifatnya, yaitu akut dan kronis. Jenis akut terjadi bisa secara tiba-tiba dalam kurun waktu yang cenderung singkat.</p>
+
+          <p>Sementara yang kronis berkembang perlahan dan merupakan kondisi jangka panjang. Sialnya, keduanya sama-sama mengganggu berbagai fungsi tubuh, terutama yang berkaitan dengan metabolisme. </p>
+  
+          <p>Hal ini terjadi karena hati berperan penting dalam metabolisme tubuh, seperti menghasilkan empedu, mengurai berbagai zat, menetralisir racun, mengaktifkan enzim dan lain sebagainya. </p>
+        
+        </div>
+        <div class="col-md-4">
+          
+          <h3>Bagaimana Cara Mencegahnya?</h3>
+
+          <ul>
+            <li>Melakukan vaksinasi</li>
+            <li>Mengurangi konsumsi alkohol</li>
+            <li>Menjaga kebersihan sumber air</li>
+            <li>Mencuci bahan makanan yang kamu konsumsi, terutama kerang dan tiram, sayuran, serta buah-buahan</li>
+            <li>Tidak berbagi pakai sikat gigi, pisau cukur, atau jarum suntik dengan orang lain</li>
+            <li>Tidak menyentuh darah tanpa sarung tangan pelindung</li>
+          </ul>      
+              
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark text-white mt-5" style="padding: 20px 0;">
+    <div class="container">
+      <small>&copy; 2024. Hepa Id</small>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
